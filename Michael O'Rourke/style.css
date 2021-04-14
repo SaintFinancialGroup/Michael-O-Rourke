@@ -1,0 +1,73 @@
+/* CSS Document */
+
+body {
+	background-color: #ffffff;
+	font-family: "Raleway", sans-serif;
+	color: #111111;
+	margin: 0;
+}
+
+a {
+	font-style: italic;
+	color: #2696a1;
+}
+
+.Welcome {
+	padding-left: 5%;
+	margin-top: 50px;
+	min-height: 70vh;
+}
+
+.navbar-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 20px;
+
+}
+
+.hero-wrap {
+	display: flex;
+}
+
+
+li {
+	display: inline;
+	padding-right: 10px;
+	text-decoration: none;
+
+}
+
+.Introduction {
+	min-width: 50%;
+	display: flex;
+	justify-content: top;
+	align-items: left;
+	flex-direction: column;
+	margin-right: 5%;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.heropara {
+	font-size: 25px
+}
+
+footer {
+	background: #111111;
+	color: #ffffff;
+	max-width: 100%;
+	height: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+
+}
