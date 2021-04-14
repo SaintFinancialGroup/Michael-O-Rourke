@@ -46,8 +46,10 @@ a {
 	border: 0;
 	transition: 0.3s;
 	border-radius: 5px;
+	outline: 0;
 
 }
+
 
 .introbutton:hover {
 	transform: translateY(-5px);
