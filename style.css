@@ -1,4 +1,5 @@
 /* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@257&display=swap");
 
 body {
 	background-color: #ffffff;
@@ -8,8 +9,10 @@ body {
 }
 
 a {
-	font-style: italic;
+	font-style: normal;
 	color: #2696a1;
+	font-weight: 600;
+	text-decoration: none;
 }
 
 .Welcome {
