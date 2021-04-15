@@ -22,7 +22,6 @@ a {
 a:hover {
 	color: #157777;
 	transition: 0.3s;
-	transform: translateY(-5px);
 	transition: 300ms;
 }
 
@@ -43,6 +42,7 @@ a:hover {
 .wrap {
 	display: flex;
 	direction: row;
+	justify-content: space-between;
 	padding-bottom: 40px;
 	padding-top: 40px;
 
@@ -73,19 +73,21 @@ li {
 	display: inline;
 	margin-left: 10px;
 	text-decoration: none;
-
+	transform: translateY(-5px);
+	transition: 300ms;
 }
 
+
 .Introduction {
-	min-width: 50%;
+	width: 45%;
 	display: flex;
 	justify-content: top;
 	align-items: left;
-	flex-direction: column;
-	margin-right: 5%;
+	flex-direction: column; 
 }
 
-h2 {
+
+.Primarytitle {
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -94,15 +96,12 @@ h2 {
 	font-size: 23px
 }
 
-.heroimg {
-	display: flex;
-	align-items: center;
-}
 
 .subtext {
 	color: #2696a1;
 	font-weight: 700;
 }
+
 
 
 footer {
